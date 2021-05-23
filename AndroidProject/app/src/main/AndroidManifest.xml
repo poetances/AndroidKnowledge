@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidproject">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".java.多线程.MulitiThreadActivity"></activity>
+        <activity android:name=".java.IO.IoActivity" />
+        <activity android:name=".java.File.FileActivity" />
+        <activity android:name=".java.Arrays.ArraysActivity" />
+        <activity android:name=".java.String.StringActivity" />
+        <activity android:name=".java.常见类.ClassActivity" />
+        <activity android:name=".java.内部类.InnerClassActivity" />
+        <activity android:name=".java.包名.PackageActivity" />
+        <activity android:name=".java.条件语句.ConditionActivity" />
+        <activity android:name=".java.基础数据类型.BasicTypeActivity" />
+        <activity
+            android:name=".BottomNavigationViewActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".paint.PaintActivity" />
+        <activity android:name=".animation.PropertyAnimationActivity" />
+        <activity android:name=".animation.KeyFrameAnimationActivity" />
+        <activity android:name=".animation.TweenAnimationActivity" />
+        <activity android:name=".animation.AnimationActivity" />
+        <activity android:name=".drawable.DrawableActivity" />
+        <activity android:name=".systermKnowledge.json.JsonActivity" />
+        <activity android:name=".systermKnowledge.xml.XmlActivity" />
+        <activity android:name=".systermKnowledge.http.HttpActivity" />
+        <activity android:name=".systermKnowledge.sqlite.SqliteActivity" />
+        <activity android:name=".systermKnowledge.sharePreferences.SharePreferencesActivity" />
+        <activity android:name=".systermKnowledge.fileSave.FileActivity" />
+        <activity android:name=".systermKnowledge.contentProvider.ContentProviderActivity" />
+        <activity android:name=".systermKnowledge.service.ServiceActivity" />
+        <activity android:name=".systermKnowledge.configuration.ConfigurationActivity" />
+        <activity android:name=".systermKnowledge.gesture.GestureActivity" />
+        <activity android:name=".systermKnowledge.thread.ThreadActivity" />
+        <activity android:name=".systermKnowledge.handler.HandlerActivity" />
+        <activity android:name=".systermKnowledge.InnerClass.InnerClassActivity" />
+        <activity android:name=".systermKnowledge.broadcast.BroadcastActivity" />
+        <activity android:name=".systermKnowledge.event.CallbackEventActivity" />
+        <activity android:name=".systermKnowledge.event.ListenEventActivity" />
+        <activity android:name=".systermKnowledge.fragment.StaticFragmentActivity" />
+        <activity android:name=".systermKnowledge.fragment.DynamicFragmentActivity" />
+        <activity android:name=".systermUI.WebViewActivity" />
+        <activity android:name=".listView.MaterialRecyclerViewActivity" />
+        <activity android:name=".listView.StaggerRecyclerViewActivity" />
+        <activity android:name=".listView.GridRecyclerViewActivity" />
+        <activity android:name=".listView.HorizonRecyclerViewActivity" />
+        <activity android:name=".listView.RecyclerViewActivity" />
+        <activity android:name=".listView.ListViewActivity" />
+        <activity android:name=".listView.GridViewActivity" />
+        <activity android:name=".listView.ListViewMainActivity" />
+        <activity android:name=".viewGroup.PercentLayoutActivity" />
+        <activity android:name=".systermUI.MenuActivity" />
+        <activity android:name=".systermUI.PopUpWindowActivity" />
+        <activity android:name=".systermUI.DialogActivity" />
+        <activity android:name=".systermUI.DateTime2Activity" />
+        <activity android:name=".systermUI.DateTimeActivity" />
+        <activity android:name=".systermUI.ProgressBarActivity" />
+        <activity android:name=".systermUI.SwitchActivity" />
+        <activity android:name=".systermUI.ToggleButtonActivity" />
+        <activity android:name=".systermUI.CheckBoxActivity" />
+        <activity android:name=".systermUI.RadioButtonActivity" />
+        <activity android:name=".systermUI.ImageViewActivity" />
+        <activity android:name=".systermUI.ButtonActivity" />
+        <activity android:name=".systermUI.TextViewActivity" />
+        <activity android:name=".systermKnowledge.intent.LaunchModeActivity" />
+        <activity android:name=".systermKnowledge.intent.LifeRecycleActivity" />
+        <activity android:name=".systermKnowledge.intent.IntentExtraActivity" />
+        <activity
+            android:name=".systermKnowledge.SystemKnowledgeActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.Sy1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".systermKnowledge.intent.IntentActivity" />
+        <activity android:name=".viewGroup.ConstraintLayoutActivity" />
+        <activity android:name=".viewGroup.RelativeLayoutActivity" />
+        <activity android:name=".viewGroup.FrameLayoutActivity" />
+        <activity android:name=".viewGroup.AbsoluteLayoutActivity" />
+        <activity android:name=".viewGroup.GridLayoutActivity" />
+        <activity android:name=".viewGroup.TableLayoutActivity" />
+        <activity android:name=".viewGroup.LineLayoutActivity" />
+        <activity android:name=".viewGroup.ViewGroupActivity" />
+        <activity
+            android:name=".systermUI.EditTextActivity"
+            android:windowSoftInputMode="" />
+        <activity android:name=".systermUI.ToastActivity" />
+        <activity android:name=".systermUI.SystemUIActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".systermKnowledge.keyword.KeywordActivity" />
+
+        <provider
+            android:name=".systermKnowledge.contentProvider.MineProvider"
+            android:authorities="com.example.androidproject" />
+
+        <receiver android:name=".systermKnowledge.broadcast.BroadcastActivity$UsbBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".systermKnowledge.service.BankService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BANK_WORKER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BANK_BOSS" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".systermKnowledge.service.MineService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <uses-library
+            android:name="org.apache.http"
+            android:required="false" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
